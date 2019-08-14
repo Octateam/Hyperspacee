@@ -1,0 +1,316 @@
+
+body{
+    font-family: "Montserrat";
+    color:#23374A;
+}
+
+#home{
+    background-color: #E7FCF8;
+    height: 629px;
+    width: 100%;
+}
+
+
+.container-fluid{
+    padding: 0% 5% 7%;
+}
+
+.navbar-toggler {
+    color: #23374A;
+}
+
+.vector{
+    position: absolute;
+    left: 1000px;
+    top: 283px;
+}
+.main-text{
+    padding-top: 180px;
+    margin-left: -50px;
+}
+h1{
+    font-family: "Montserrat";
+    font-weight: bold;
+    padding-right: 400px;
+    width: 200%;
+    color:#23374A;
+    font-size: 50px;
+    line-height: 75px;
+}
+
+.btn-default {
+    background-color: #0ECFAC;
+    color: #ffffff;
+}
+
+p{
+    font-weight:normal;
+    font-size: 22px;
+    width: 50%;
+    line-height: 30px;
+    color: #23374A;
+}
+
+h7{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #23374A;
+}
+
+h5{
+    line-height: 28px;
+    width: 80%;
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: #23374A;
+}
+
+.nav-items {
+    margin-left: 18px;
+   
+}
+/* .navbar {
+    position: fixed;
+} */
+
+.navbar-button{
+    margin-left: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+.feature-bckg{
+    background-color: #ffffff;
+}
+
+
+/* .card{
+    padding-left: 100px;
+    width: 5px;
+    height: 400px;
+    box-shadow: 0px 20px 50px #E7FCF8;
+    border-radius: 7px;
+} */
+
+h4{
+    color: #23374A;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    line-height: 45px;
+}
+
+h3 {
+    padding-bottom: 70px;
+    position: relative;
+    width: 600px;
+    color: #23374A;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    line-height: 45px;
+    text-align: center;
+    padding-top: 70px;
+    left: 350px;
+}
+
+.right-text{
+    margin-top: 100px;
+    width: 500%;
+    padding-left: 100px;
+    line-height: 36px;
+}
+
+.left-text{
+    padding-right: 100px;
+    margin-top: 100px;
+    width: 50%; 
+    line-height: 36px;
+}
+
+.card-img{
+    margin-top: 80px;
+    text-align: center;
+    padding-top: 50px;
+    width: 300px;
+    height: 300px;
+    padding-bottom: 50px;
+    
+}
+
+.row {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* .product-card {
+       
+    box-shadow: 0px 0px 33px -3px rgb(204, 218, 187);
+    margin: 15px 0;
+    margin-bottom: 100px;
+    width: 100px;
+    height: 450px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 7em;
+    border-radius: 20px;
+    overflow: hidden;
+    transform: translateY(0px);
+    transition: 0.5s;
+} */
+
+#updates {
+    background-color: #E7FCF8;
+    text-align: center;
+    height: 800px;
+    
+}
+.update-img{
+    text-align: center;
+    padding-top: -20px;
+    width: 100px;
+    height: 90px;
+}
+
+.gazette {
+    position: absolute;
+    left: 250px;
+    
+}
+.trophy {
+    position: absolute;
+    left: 700px;
+}
+
+.article{
+    color: #ffff;
+}
+
+.challenges{
+    color: #ffff;
+}
+.update-card{
+    background-color:#0ECFAC;
+    box-shadow: 0px 0px 33px -3px #E2F8CC;
+    margin: 15px 0;
+    margin-bottom: 100px;
+    width: 400px;
+    height: 450px;
+    text-align: center;
+    margin-top: 100px;
+    padding: 7em;
+    border-radius: 15px;
+    overflow: hidden;
+    transform: translateY(0px);
+    transition: 0.5s;
+    padding-bottom: 100px;
+}
+
+.update-txt {
+    padding-left: 85px;
+    padding-top: 100px;
+    text-align: left;
+    line-height: 20px;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+#particels-js{
+    z-index: 1;
+    background-color: #23374A;  
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+        
+    }
+
+    
+    .vector{
+        position: absolute;
+        top: 283px;
+        padding-top: -200px;
+        margin-left: -705px;
+        opacity: 0.4;
+    }
+
+    .main-text{
+        z-index: 1;
+        
+    }
+
+    h3{
+        text-align: center;
+        width: 80%;
+        margin-left: -350px;
+    }
+
+    .card-img{
+        margin-top: -60px;
+        margin-left: -110px;
+        text-align: center;
+    }
+    
+    /* .product-card{
+        width: 200px;
+        height: 350px;
+        margin-left: -20px;
+        margin-right: 50px;
+    }
+
+    .hackathon-card{
+        position: relative;
+        left: 160px;
+        top: 70px;
+        margin-left: 220px;
+       
+    } */
+
+    .image1{
+        position: relative;
+        top: 200px;
+        left: 62px;
+       
+    }
+
+    .image2{
+        position: relative;
+        top: -350px;
+        left: 350px;
+    }
+    .right-text{
+        width: 70%;
+        margin-left: -30px;
+        margin-right: -100px;
+    }
+
+    .left-text{
+        width: 75%;
+        margin-left: -30px;
+        margin-right: 1px;
+    }
+
+    .image2{
+        position: relative;
+        top: -350px;
+        left: 350px;
+    }
+
+    .image3{
+        position: relative;
+        top: 150px;
+        left: -130px;
+    }
+
+    .r2t{
+        position: relative;
+        top: -250px;
+        left: 200px;
+        
+    }
+
+    .feature-text{
+        text-align: center;
+    }
+}
